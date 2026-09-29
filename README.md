@@ -21,7 +21,7 @@ AI was used to further understand Professor Rivera's code including specific lib
 
 # Run instructions:
 
-## Setup the Virtual Env
+### Setup the Virtual Env
 1. From the directory of this folder, create a virtual env using: `python3 -m venv env`
 2. Activate the virtual environment: 
     - On Mac: <source env/bin/activate> 
@@ -29,14 +29,14 @@ AI was used to further understand Professor Rivera's code including specific lib
 3. Install the required packages using: `pip install -r requirements.txt`
 4. When adding new packages, be sure to update the requirements.txt using: `pip freeze > requirements.txt`
 
-## Running the script 
+### Running the script 
 1. Activate the virtual environment: 
     - On Mac: `source env/bin/activate`. 
     - On Windows: `./env/Scripts/activate.bat`
 2. Run the script:
         `python <script_name>.py `
 
-## If running without a previously saved <gesture_model.pkl> and <training.csv>:
+### If running without a previously saved <gesture_model.pkl> and <training.csv>:
 
 1. `python gesture_train_model_microphone_spectrogram.py`
 
@@ -51,7 +51,7 @@ AI was used to further understand Professor Rivera's code including specific lib
 
     <training.csv> and <gesture_model.pkl> are both saved now and should be deleted to traina new model with new data
 
-## To run the detection and visualization after training the model in <gesture_train_model_microphone_spectrogram.py>:
+### To run the detection and visualization after training the model in <gesture_train_model_microphone_spectrogram.py>:
 
 1. `python gesture_detection_visualization.py`
     - Press the space bar on the title screen to begin the detection
