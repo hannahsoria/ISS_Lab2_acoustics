@@ -1,11 +1,9 @@
 # IIS Lab 2: Acoustic
 
 # Description:
-In this lab, the goal is to create a system to detect different audio sounds which are then categorized  accordingly. For this, I utilized Professor Rivera's provided spectrogram code to pull out features to determine what the noise is and records them, saves them to a csv file, then uses the labeled csv file to train a model utilizing sklearn svc. The model is then saved to be used for gesture recognition in <gesture_detection_visualization.py>
+In this lab, the goal is to create a system to detect different audio sounds which are then categorized  accordingly. For this, I utilized Professor Rivera's provided spectrogram code and implemented calculating and recording features, or characteristics of the audio, that are then used to determine what the noise is. The features of the audio, along with a provided label are saved to a csv file, then the labeled csv file is used to train a model utilizing sklearn svc. The model is then saved to be used for gesture recognition in <gesture_detection_visualization.py>
 
-<gesture_detection_visualization> uses the machine learning model created in <gesture_train_model_microphone_spectrogram.py> to actively listen for a clap, whistle, or hum to then display a corresponding animal, along with how they use this sound. The purpose is to educate children on animal communication in a run and interactive way, in a museum for example.
-
-This is implemented by constantly waiting for a noise to be detected via volume, then capturing it until it quiets, then making a prediction based on the model previously created.
+<gesture_detection_visualization> uses the machine learning model created in <gesture_train_model_microphone_spectrogram.py> to actively listen for a clap, whistle, or hum to then display a corresponding animal, along with how they use this sound. A sound is recorded when there is a significant increase in volume until there is prolonged silence. The label is then predicted using the model. The purpose is to educate children on animal communication in a run and interactive way, in a museum for example.
 
 The interactive element comes from making sounds to display the different screens and learn about the animals. I was inspired to make this because I am interesting in creating interactive environments in museum settings. 
 
