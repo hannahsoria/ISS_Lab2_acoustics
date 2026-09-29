@@ -49,5 +49,4 @@ AI was used to further understand Professor Rivera's code including specific lib
     - Press the space bar on the title screen to begin the detection
     - make a whistle, clap, hum noise to use the system
 
-
-https://github.com/user-attachments/assets/0693b764-5c86-4850-9327-ef43470d28bd
+https://github.com/user-attachments/assets/ee6c5a2a-9145-4a31-a2b7-40739242254e
