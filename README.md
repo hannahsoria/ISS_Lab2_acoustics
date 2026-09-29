@@ -1,23 +1,15 @@
 # IIS Lab 2: Acoustic
 
 # Description:
-In this lab, the goal is to create a system to detect different audio sounds that are recognized 
-accordingly by the system. For this, I utilized Professor Rivera's provided spectrogram code to 
-to pull out features to determine what the noise is and records them, saves them to a csv file,
-then uses the labeled csv file to train a model utilizing sklearn svc. The model is then saved to 
-be used for gesture recognition in <gesture_detection_visualization.py>
+In this lab, the goal is to create a system to detect different audio sounds which are then categorized  accordingly. For this, I utilized Professor Rivera's provided spectrogram code to pull out features to determine what the noise is and records them, saves them to a csv file, then uses the labeled csv file to train a model utilizing sklearn svc. The model is then saved to be used for gesture recognition in <gesture_detection_visualization.py>
 
-<gesture_detection_visualization> uses the machine learning model created in 
-<gesture_train_model_microphone_spectrogram.py> to actively listenfor a clap, whistle, or hum to 
-then display a corresponding animal that utilizes this noise as to educate children in a museum for example.
+<gesture_detection_visualization> uses the machine learning model created in <gesture_train_model_microphone_spectrogram.py> to actively listen for a clap, whistle, or hum to then display a corresponding animal, along with how they use this sound. The purpose is to educate children on animal communication in a run and interactive way, in a museum for example.
 
-This is implemented by constantly waiting for a noise to be detected via volume, then capturing it 
-until it quiets, then making a prediction based on the model previously created.
+This is implemented by constantly waiting for a noise to be detected via volume, then capturing it until it quiets, then making a prediction based on the model previously created.
 
-The interactive element comes from making sounds to display the different screens and learn about the animals. I was inspired to make this because I am interesting in creating interactive environments
-in museum settings. 
+The interactive element comes from making sounds to display the different screens and learn about the animals. I was inspired to make this because I am interesting in creating interactive environments in museum settings. 
 
-AI was used to further understand Professor Rivera's code including specific libraries uses I was unfamiliar with, the code structure, and overall understanding sound and how it is manipulated in this project. AI was also used to achieved cleaner code, for example I wrote and attempting all of the code I created but recognized it could have been written better, or needed to find the correct function I was searching for, so I revised with AI. Lastly, I used AI to understand Sklearn implmentation because this was an unfamiliar library for me.
+AI was used to further understand Professor Rivera's code including specific libraries uses I was unfamiliar with, the code structure, and overall understanding sound and how it is manipulated in this project. AI was also used to achieved cleaner code, I wrote and attempted all of the code I created but recognized it could have been written better, or needed to find the correct function I was searching for, so I revised with AI. Lastly, I used AI to understand Sklearn implementation because this was a more unfamiliar library for me.
 
 # Run instructions:
 
