@@ -7,7 +7,7 @@ In this lab, the goal is to create a system to detect different audio sounds whi
 
 The interactive element comes from making sounds to display the different screens and learn about the animals. I was inspired to make this because I am interesting in creating interactive environments in museum settings. 
 
-AI was used to further understand Professor Rivera's code including specific libraries uses I was unfamiliar with, the code structure, and overall understanding sound and how it is manipulated in this project. AI was also used to achieved cleaner code, I wrote and attempted all of the code I created but recognized it could have been written better, or needed to find the correct function I was searching for, so I revised with AI. Lastly, I used AI to understand Sklearn implementation because this was a more unfamiliar library for me.
+AI was used to further understand Professor Rivera's code including specific libraries used I was unfamiliar with and overall understanding sound complexities and how it is manipulated in his code. I wrote and attempted all of the code I created but sometimes needed to find the correct functions or syntax I was searching for in unfamiliar libraries, such as Sklearn, achieve math to manipulate variables that I did not previously know, or further understand sound features, so I researched and revised with AI assistance where necessary. 
 
 # Run instructions:
 
